@@ -3,15 +3,16 @@ import '../BadgeComponent.css';
 
 function ButtonType(props){
   if(props.number > 50){
-    return <button className="AdvancedUser">{props.number}</button>;
+    return <p className="AdvancedUser">{props.number}</p>
+
   } else {
-    return <button className="BeginningUser">{props.number}</button>;
+    return <p className="BeginningUser">{props.number}</p>;
   }
 }
 
 function BadgeComponent(){
   return (
-    <ButtonType number={100} />
+    <ButtonType number={100}/>
   );
 };
 

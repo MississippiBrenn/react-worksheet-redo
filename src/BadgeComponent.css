@@ -1,7 +1,20 @@
  .BeginnerUser {
   background-color: green;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  display: inline-flex;
 }
 
-.AdvancedUser button {
-  background-color: blue;
+.AdvancedUser {
+  background-color: #61dafb;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  display: inline-flex;
+  justify-content: center;
+   align-items: center;
+   font-size: 12px;
+   color: white;
+   
 }

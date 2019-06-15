@@ -2,10 +2,6 @@ import React from 'react';
 import Avatar from './components/Avatar'
 import BadgeComponent from './components/BadgeComponent'
 
-import './App.css';
-import './BadgeComponent.css';
-
-
 function App() {
   return (
     <div className="App">
