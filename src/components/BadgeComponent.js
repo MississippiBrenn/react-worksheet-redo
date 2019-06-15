@@ -12,7 +12,7 @@ function ButtonType(props){
 
 function BadgeComponent(){
   return (
-    <ButtonType number={100}/>
+   <div>Notifications<div className="BadgeFlexContainer"><ButtonType number={100}/><p></p></div></div>
   );
 };
 

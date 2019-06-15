@@ -10,7 +10,7 @@ function App() {
           <Avatar/>
         </li>
         <li>
-          Notifications <BadgeComponent/>
+          <BadgeComponent/>
         </li>
       </ul>
     </div>

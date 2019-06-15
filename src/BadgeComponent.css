@@ -16,5 +16,8 @@
    align-items: center;
    font-size: 12px;
    color: white;
-   
+}
+
+.BadgeFlexContainer{
+  display: inline-block;
 }
